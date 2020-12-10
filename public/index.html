@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <form action="/form-data" enctype="multipart/form-data" method="POST">
+        <div class="title">
+            <i class="fas fa-pencil-alt"></i>
+            <h2>Register here</h2>
+        </div>
+        <div class="info">
+            <input class="fname" type="text" name="name" placeholder="Full name">
+            <input type="text" name="email" placeholder="Email">
+            <input type="number" name="phone_number" placeholder="Phone number">
+            <input type="file" name="avatar">
+        </div>
+        <button type="submit" href="/">Submit</button>
+    </form>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
